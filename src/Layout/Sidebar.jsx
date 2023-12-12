@@ -62,20 +62,18 @@ export default function Sidebar({collapsed, setCollapsed}) {
         <Title>Supply Chain X</Title>
         <Item>Nuevo Chat</Item>
         <Date>Today</Date>
-        <Item>unoasdasdasd</Item>
-        <Item>unoasdasddsadasdasd</Item>
+        <Item>Titulo de chat</Item>
+        <Item>Titulo de conversacion</Item>
         
         <Date>Yesterday</Date>
-        <Item>unoasdasdadsadsd</Item>
-        <Item>unoasdaasdfasdfsdasd</Item>
-        <Item>unoasdasdasd</Item>
-        <Item>unoasdasddsadasdasd</Item>
+        <Item>Titulo de chat</Item>
+        <Item>Titulo de conversacion</Item>
+        <Item>Titulo de chat</Item>
+        <Item>Titulo de conversacion</Item>
 
         <Date>02/12/2023</Date>
-        <Item>unoasdasdadsadsd</Item>
-        <Item>unoasdaasdfasdfsdasd</Item>
-        <Item>unoasdasdasd</Item>
-        <Item>unoasdasddsadasdasd</Item>
+        <Item>Titulo de chat</Item>
+        <Item>Titulo de conversacion</Item>
     </Container>
   )
 }
