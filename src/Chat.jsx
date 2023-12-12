@@ -5,11 +5,11 @@ const Container = styled.div`
     display:flex;
     background-color: ${props => props.theme.primary};
     /* background-color: blue; */
-    width: 75%;
+    width: calc((100% / 1.5));
     border-radius: 10px;
     height: 90vh;
     margin: auto;
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       width: 90%;
       margin-top: 30px;
     }

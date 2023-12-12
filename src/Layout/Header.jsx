@@ -11,7 +11,7 @@ const Container = styled.div`
   width: 100%;
   background-color: ${props => props.theme.primary};
   color: ${props => props.theme.txt};
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
       display: flex;
   }
 `

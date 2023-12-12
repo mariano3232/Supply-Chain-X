@@ -18,7 +18,7 @@ const Container = styled.div`
     transform: translateX(${
         props => props.collapsed ? '-18rem' : '0px'
     });
-    @media(max-width:768px){
+    @media(max-width:900px){
         position: absolute;
         left:0;top:0;
     }
@@ -48,7 +48,7 @@ export default function Sidebar({collapsed, setCollapsed}) {
     function manejarCambioDeTamaño() {
         const screenWidth = window.innerWidth;
         console.log(`Nuevo ancho de la ventana: ${screenWidth}px`);
-        if (screenWidth > 768){
+        if (screenWidth > 900){
             setCollapsed(false)
         } else {
             setCollapsed(true)
