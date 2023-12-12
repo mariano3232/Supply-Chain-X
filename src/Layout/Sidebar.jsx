@@ -47,7 +47,6 @@ export default function Sidebar({collapsed, setCollapsed}) {
 
     function manejarCambioDeTamaño() {
         const screenWidth = window.innerWidth;
-        console.log(`Nuevo ancho de la ventana: ${screenWidth}px`);
         if (screenWidth > 900){
             setCollapsed(false)
         } else {
@@ -57,7 +56,6 @@ export default function Sidebar({collapsed, setCollapsed}) {
 
     window.addEventListener('resize', manejarCambioDeTamaño);
 
-    console.log('collapsed :',collapsed)
     return (
     <Container collapsed={collapsed}>
         <CollapseButton className='collapse-button' onClick={() => {setCollapsed(true)}}>COLLAPSE</CollapseButton>

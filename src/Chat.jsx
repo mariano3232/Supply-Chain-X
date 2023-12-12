@@ -10,8 +10,10 @@ const Container = styled.div`
     height: 90vh;
     margin: auto;
     @media (max-width: 900px) {
+      border-radius: 6px;
       width: 90%;
-      margin-top: 30px;
+      margin-top: 20px;
+      height: 85vh;
     }
 `
 

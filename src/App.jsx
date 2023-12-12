@@ -8,6 +8,9 @@ const AppContainer = styled.div`
   position:relative;
   display:flex;
   flex-direction: row;
+  @media(max-width:900px){
+    flex-direction: column;
+  }
 `
 
 function App() {
