@@ -20,7 +20,7 @@ export default function Header({setCollapsed}) {
   return (
     <Container>
         <button onClick={()=>setCollapsed(false)}>Collapse</button>
-        <p>Logo o algo</p>
+        <p>Supply Chain X</p>
     </Container>
   )
 }

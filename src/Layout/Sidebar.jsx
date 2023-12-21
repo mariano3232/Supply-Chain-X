@@ -2,11 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Title = styled.h1`
-    font-size: 30px;
+    font-size: 20px;
 `
 const Container = styled.div`
     height: 100vh;
-    width: 18rem;
+    width: 16rem;
     background-color: ${props => props.theme.primary};
     color: ${props => props.theme.txt};
     display: flex;
@@ -61,11 +61,11 @@ export default function Sidebar({collapsed, setCollapsed}) {
         <CollapseButton className='collapse-button' onClick={() => {setCollapsed(true)}}>COLLAPSE</CollapseButton>
         <Title>Supply Chain X</Title>
         <Item>Nuevo Chat</Item>
-        <Date>Today</Date>
+        <Date>Hoy</Date>
         <Item>Titulo de chat</Item>
         <Item>Titulo de conversacion</Item>
         
-        <Date>Yesterday</Date>
+        <Date>Ayer</Date>
         <Item>Titulo de chat</Item>
         <Item>Titulo de conversacion</Item>
         <Item>Titulo de chat</Item>
